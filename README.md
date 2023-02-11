@@ -1,4 +1,4 @@
-# non_context_gramma_correct_and_misspelled_senetence_generator
+# Non-context grammar correct and misspelled senetence generator
 
 Python module that allows to generate sentences using non-context grammar.The main goal of this module is to generate gramarly corrected and incorrected sentences in a control way. 
 Module MisspellGenerator is created to randomly add typing errors that base on Damerau–Levenshtein distance error types: 
@@ -16,35 +16,75 @@ correct and incorrect (optionally) verb phrase and the rest of sentences. The pr
 - Subject - Verb - Noun.
 
 The rules that are included in the _fill_verb_subject_rule_ function from SentenceGenerator.py module allows to generate sentences using following structures:
-- Present Simple 
-  -  Correct sentence: Not 3rd Singular subject + V1 or 3rd Singular subject + V -s / -es / -ies 
-  -  Incorrect sentence:  Not 3rd Singular subject + Verb -s / -es / -ies   or  3rd Singular subject + V1
-- Present continuous
-  -  Correct sentence: I am + gerund or Singular noun + is + gerund  or Plural noun + are + gerund
-  -  Incorrect sentence: I is + gerund or Singular noun + are + gerund or Plural noun + is + gerund
-- Present perfect 
-  -  Correct sentence: Subject (Not 3rd Singular) + V1 or Subject (3rd Singular) + V -s / -es / -ies 
+- **Present Simple**
+  -  Correct sentence: Not 3rd singular subject + V1 or 3rd singular subject + Verb -s / -es / -ies 
+  -  Incorrect sentence:  Not 3rd singular subject + Verb -s / -es / -ies   or  3rd singular subject + V1
+- **Present continuous**
+  -  Correct sentence: I am + gerund or singular noun + is + gerund  or Plural noun + are + gerund
+  -  Incorrect sentence: I is + gerund or singular noun + are + gerund or Plural noun + is + gerund
+- **Present perfect**
+  -  Correct sentence: Not 3rd singular subject + have + V3 or 3rd singular subject + has + V3
+  -  Incorrect sentence: Not 3rd singular subject + has + V3 or 3rd singular subject + have + V3
+- **Past simple**
+  -  Correct sentence: 
   -  Incorrect sentence: 
-- Past simple
-- Past continuous 
-- Past perfect
-- Future simple
-- Future continuous
-- Future perfect
-- Passive present continuous 
-- Passive present perfect 
-- Passive past simple 
-- Passive past perfect
-- Passive future simple
-- Can
-- Could
-- Will
-- Must
-- Would
-- Should
-- Ought to
-- Used to
-- Going to
+- **Past continuous**
+  -  Correct sentence: 
+  -  Incorrect sentence: 
+- **Past perfect**
+  -  Correct sentence: 
+  -  Incorrect sentence: 
+- **Future simple**
+  -  Correct sentence: 
+  -  Incorrect sentence: 
+- **Future continuous**
+  -  Correct sentence: 
+  -  Incorrect sentence: 
+- **Future perfect**
+  -  Correct sentence: 
+  -  Incorrect sentence: 
+- **Passive present continuous**
+  -  Correct sentence: 
+  -  Incorrect sentence: 
+- **Passive present perfect** 
+  -  Correct sentence: 
+  -  Incorrect sentence: 
+- **Passive past simple**
+  -  Correct sentence: 
+  -  Incorrect sentence: 
+- **Passive past perfect**
+  -  Correct sentence: 
+  -  Incorrect sentence: 
+- **Passive future simple**
+  -  Correct sentence: 
+  -  Incorrect sentence: 
+- **Can**
+  -  Correct sentence: Subject + can + V1
+  -  Incorrect sentence: Subject + can + Verb -s / -es / -ies 
+- **Could**
+  -  Correct sentence: Subject + could + V1
+  -  Incorrect sentence: Subject + could + Verb -s / -es / -ies 
+- **Will**
+  -  Correct sentence: Subject + will + V1
+  -  Incorrect sentence: Subject + will + Verb -s / -es / -ies 
+- **Must**
+  -  Correct sentence: Subject + must + V1
+  -  Incorrect sentence: Subject + must + Verb -s / -es / -ies 
+- **Would**
+  -  Correct sentence: Subject + would + V1
+  -  Incorrect sentence: Subject + would + Verb -s / -es / -ies 
+- **Should**
+  -  Correct sentence: Subject + should + V1
+  -  Incorrect sentence: Subject + should + Verb -s / -es / -ies 
+- **Ought to**
+  -  Correct sentence: Subject + ought to + V1
+  -  Incorrect sentence: Subject + ought to + Verb -s / -es / -ies 
+- **Used to**
+  -  Correct sentence: Subject + used to + V1
+  -  Incorrect sentence: Subject + used to + Verb -s / -es / -ies 
+- **Going to**
+  -  Correct sentence: I am going to + V1 or singular noun + is going to + V1  or Plural noun + are going to + V1
+  -  Incorrect sentence:  Singular noun + are going to + V1 or Plural noun + is going to + V1 or  Singular noun + are going to + Verb -s / -es / -ies  or  Plural noun + is going to + Verb -s / -es / -ies 
 
             
 
