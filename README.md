@@ -4,16 +4,16 @@ Python module that allows to generate sentences using non-context grammar.The ma
 Module MisspellGenerator is created to randomly add typing errors that base on Damerau–Levenshtein distance error types: 
 - transpose;
 - deletion;
-- replace;
+- replace; 
 - insert.
 The _misspell_sentence_ function adds typing errors to the provided as an argument string (the amount of the errors is the second argument of this function). 
 
 The function _generate_sentences_ from SentenceGenerator.py is core one to generate sentence - as the arguments it takes: subject,  
 correct and incorrect (optionally) verb phrase and the rest of sentences. The project mainly focuses on simple grammatical constructions: 
-— Subject - Verb - Object;
-— Subject - Verb - Adjective;
-— Subject - Verb - Adverb;
-— Subject - Verb - Noun.
+- Subject - Verb - Object;
+- Subject - Verb - Adjective;
+- Subject - Verb - Adverb;
+- Subject - Verb - Noun.
 
 The rules that are included in the _fill_verb_subject_rule_ function from SentenceGenerator.py module allows to generate sentences using following structures:
 - Present Simple 
