@@ -19,45 +19,45 @@ The rules that are included in the _fill_verb_subject_rule_ function from Senten
 - **Present Simple**
   -  Correct sentence: Not 3rd singular subject + V1 or 3rd singular subject + Verb -s / -es / -ies 
   -  Incorrect sentence:  Not 3rd singular subject + Verb -s / -es / -ies   or  3rd singular subject + V1
-- **Present continuous**
+- **Present Continuous**
   -  Correct sentence: I am + gerund or singular noun + is + gerund  or Plural noun + are + gerund
   -  Incorrect sentence: I is + gerund or singular noun + are + gerund or Plural noun + is + gerund
 - **Present perfect**
   -  Correct sentence: Not 3rd singular subject + have + V3 or 3rd singular subject + has + V3
   -  Incorrect sentence: Not 3rd singular subject + has + V3 or 3rd singular subject + have + V3
-- **Past simple**
-  -  Correct sentence: 
-  -  Incorrect sentence: 
-- **Past continuous**
-  -  Correct sentence: 
-  -  Incorrect sentence: 
+- **Past Simple**
+  -  Correct sentence: Subject + V2
+  -  Incorrect sentence: Not included
+- **Past Continuous**
+  -  Correct sentence: Singular noun + was + gerund  or Plural noun + were + gerund
+  -  Incorrect sentence: Singular noun + were + gerund or Plural noun + was + gerund
 - **Past perfect**
-  -  Correct sentence: 
-  -  Incorrect sentence: 
-- **Future simple**
-  -  Correct sentence: 
-  -  Incorrect sentence: 
-- **Future continuous**
-  -  Correct sentence: 
-  -  Incorrect sentence: 
-- **Future perfect**
-  -  Correct sentence: 
-  -  Incorrect sentence: 
-- **Passive present continuous**
-  -  Correct sentence: 
-  -  Incorrect sentence: 
-- **Passive present perfect** 
-  -  Correct sentence: 
-  -  Incorrect sentence: 
-- **Passive past simple**
-  -  Correct sentence: 
-  -  Incorrect sentence: 
-- **Passive past perfect**
-  -  Correct sentence: 
-  -  Incorrect sentence: 
-- **Passive future simple**
-  -  Correct sentence: 
-  -  Incorrect sentence: 
+  -  Correct sentence: Subject + had + V3
+  -  Incorrect sentence: Subject + had + V1
+- **Future Simple**
+  -  Correct sentence: Subject + will + V1
+  -  Incorrect sentence: Subject + will + Verb -s / -es / -ies 
+- **Future Continuous**
+  -  Correct sentence: Subject + will be + gerund
+  -  Incorrect sentence: Subject + will be + Verb -s / -es / -ies 
+- **Future Perfect**
+  -  Correct sentence: Subject + will have + V3
+  -  Incorrect sentence: Subject + will have + Verb -s / -es / -ies 
+- **Passive Present Continuous**
+  -  Correct sentence: Singular noun + is being + V3  or Plural noun + are being + V3
+  -  Incorrect sentence: Singular noun + is being + V3 or Plural noun + is being + V3
+- **Passive Present Perfect** 
+  -  Correct sentence: Not 3rd singular subject + have been + V3 or 3rd singular subject + has been + V3
+  -  Incorrect sentence: Not included
+- **Passive Past Simple**
+  -  Correct sentence: Singular subject + was + V3 or Plural subject + were + V3
+  -  Incorrect sentence: Singular subject + were + V3 or Plural subject + was + V3
+- **Passive Past Perfect**
+  -  Correct sentence: Subject + had been + V3
+  -  Incorrect sentence: Not included
+- **Passive Future Simple**
+  -  Correct sentence: Subject + will be + V3
+  -  Incorrect sentence: Subject + will be + Verb -s / -es / -ies 
 - **Can**
   -  Correct sentence: Subject + can + V1
   -  Incorrect sentence: Subject + can + Verb -s / -es / -ies 
